@@ -41,6 +41,11 @@ app.get('/students', function(req, res){
 	console.log('Some GET request was handled');
 });
 
+app.get('/all', function(req, res){
+	console.log('hello');
+});
+
+
 app.listen(8000);
 
 console.log('Listening on port 8000 go to localhost:8000');
